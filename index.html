@@ -21,13 +21,17 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily: {
+                'manrope': ['Manrope', 'sans-serif']
+
               }
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- Header Section -->
         <header class="md:flex pt-10 mb-20">
@@ -125,7 +129,7 @@
 
                  </div>
                  <!-- Text Section -->
-                  <div>
+                  <div class="mt-6 md:mt-0">
                     <h1 class="text-5xl font-bold mb-5">Great Tea, Freshly Presented</h1>
                     <p class="text-[#777777]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                     <br>
@@ -188,5 +192,82 @@
             
          </section>
     </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-orange-100 py-10 px-4 md:py-16">
+        <section class = "max-w-screen-xl px-16 lg:px-28 mx-auto">
+
+
+            <!-- Logo and Get Started -->
+             <div class="flex justify-between items-center mb-24 gap-4">
+                <!-- logo -->
+                <div>
+                    <img src="images/cup.png" alt="Brand Logo">
+                </div>
+                <!-- get started -->
+                <div class="flex gap-x-10 items-center">
+                    <h4 class="text-lg md:text-xl font-bold text-[#494949]">Ready to get strated?</h4>
+                    <button class="text-lg md:text-xl font-bold text-white bg-gradient-to-l from-[#FF0000] to-[#FF8938] py-4 px-7 rounded-lg" >Get Started</button>
+                </div>
+             </div>
+
+            <!-- Grid Columns -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                <!-- Col-1 -->
+                <div class="mb-5">
+                    <h4 class="text-xl font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-4 text-[#494949]">
+                        <li><a class="hover:text-orange-500" href="">Home</a></li>
+                        <li><a class="hover:text-orange-500" href="">About Us</a></li>
+                        <li><a class="hover:text-orange-500" href="">Insurance</a></li>
+                        <li><a class="hover:text-orange-500" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col-2 -->
+                <div class="mb-5">
+                        <h4 class="text-xl font-semibold mb-6">Our Service</h4>
+                        <ul class="space-y-4 text-[#494949]">
+                            <li><a class="hover:text-orange-500" href="">Life Insurance</a></li>
+                            <li><a class="hover:text-orange-500" href="">Car Insurance</a></li>
+                            <li><a class="hover:text-orange-500" href="">Health Insurance</a></li>
+                            <li><a class="hover:text-orange-500" href="">House Insurance</a></li>
+                        </ul>
+                    </div>
+
+                <!-- Col-3 -->
+                <div class="mb-5">
+                        <h4 class="text-xl font-semibold mb-6">Help</h4>
+                        <ul class="space-y-4 text-[#494949]">
+                            <li><a class="hover:text-orange-500" href="">FAQs</a></li>
+                            <li><a class="hover:text-orange-500" href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                <!-- Col-4 -->
+                <div class="mb-5">
+                    <h4 class="w-3/4 text-xl font-semibold mb-6">Subscribe to our newsletter</h4>
+                    <div>
+                        <div class="flex flex-row">
+                            <input class="w-3/4 bg-transparent border-b-2 border-[#494949] pb-2 outline-none" placeholder="Email Adress" type="email" name="" id="">
+                            <i class="fa-solid fa-angle-right text-white w-8 h-8 rounded-full bg-gradient-to-l from-[#FF0000] to-[#FF8938] inline-flex justify-center items-center"></i>
+                        </div>
+                    </div>
+                    <div class="space-x-4 space-y-9">
+                        <i class="fa-brands fa-facebook-f text-xl"></i>
+                        <i class="fa-brands fa-twitter text-xl"></i>
+                        <i class="fa-brands fa-instagram text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Text -->
+             <div class="pt-4 mt-4 text-center text-[#494949] font-medium">
+                <p>© 2027 UIDesign.to - All rights reserved.</p>
+             </div>
+
+        </section>
+
+    </footer>
 </body>
 </html>
